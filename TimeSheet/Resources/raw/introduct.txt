@@ -1,0 +1,91 @@
+<b>Timesheet</b> is an easy solution to keep tracking your working hours, send timesheet to manager and invoice clients.<br/><br/>
+
+<b>Time track</b>
+• Add time record easily
+• Add time record by punch in, punch out and pause
+• Update, delete and copy time record
+• View time record in yearly, monthly, biweekly, weekly and daily
+• View time record by calendar
+• Filter time record by status, project and client
+• Sort Time record in open, follow up, invoiced and paid
+• Auto overtime calculation
+
+<b>Project</b>
+• Support multiple jobs and clients
+• Choose clients from phone contacts
+• Default start time, end time and breaks
+• Round time to 3, 5, 6, 10, 15, 30 or 60 minutes
+• Daily/weekly overtime
+
+<b>Expense</b>
+• Register expense category, amount, date and note
+• Register mileage, rate, date and note
+• Show expense with time in report and invoice
+
+<b>Export</b>
+• Customize report fields
+• Report in Microsoft Excel (XML), HTML and CSV
+• Save report in SDCard or by Email
+
+<b>Invoice</b>
+• Create invoice in PDF 
+• Customize invoice fields
+• Invoice # in letter and number
+• Customize tax name and rate
+• Partial paid
+
+<b>Charts</b>
+• Bar chart with monthly amount
+• Line chart with monthly amount
+
+<b>Settings</b>
+• Support your country currency (41)
+• Password protection
+• Auto default value
+• Configurable first day of the week, biweek and month
+• Support hour in decimal or hours:minutes format
+• Support time in 24 hour or AM/PM format
+• Support date in various formats
+
+<b>Database</b>
+• Auto backup database to SD card or Dropbox™ when exit the app
+• Manual backup database to SD card, Dropbox™ and Google Drive™
+• Restore database from SD card, Dropbox™ and Google Drive™
+• Email database
+• Clean all time records
+
+<b>Available languages (more coming soon)</b>
+• English
+• 中文
+• Deutsch (Johann)
+• Español (Toni Rubio)
+• Dansk (Lars Schilling)
+• Nederlands (Albert Maat)
+• Italiano (Massimiliano)
+• Brazilian Portuguese (Fernando Araujo)
+• Français (Jerome Cavallo, Jean-Marie)
+• Bosanski (Dženana Šabeta)
+• Norsk (Stian Pareliussen)
+
+<b>Permissions</b>
+• INTERNET: Dropbox Backup
+• ACCESS NETWORK STATE: Google Tracking
+• BILLING: In-app Billing
+• READ CONTACTS: Adding Client from Contacts
+• WRITE EXTERNAL STORAGE: Backup and Export to SDCard
+
+※ We'd greatly appreciate your help with the translation of timesheet app
+※ This version has most functions without advertising, please upgrade/purchase export and invoice features to support our improving works.
+※ If you like the app, then please give us a good rating as the driving force behind our continued development.
+※ Since it is not easy conversation in the market review, if you have any suggestions or questions please mail to our mailbox directly. For market reviews, please just leave your rating and cheers, thanks again.
+
+Email address:
+androidapplicationhk@gmail.com
+
+For support or general discussion:
+https://groups.google.com/forum/#!forum/aadhk-user
+
+Follow us on Google+:
+https://plus.google.com/101471824494741143689/posts
+
+Use timesheet as a time recorder, time tracker, work clock, time clock, punch clock, time keeper, time logger, time card, time management, worksheet, timetracker, timesheets or a easy solution for tracking time and invoice clients.

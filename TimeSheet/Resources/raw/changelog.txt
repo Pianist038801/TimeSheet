@@ -1,0 +1,357 @@
+$ 1.6.0.10
+  % Version 1.6.0.10
+  _ 2017-03-05
+  # Fix: Chinese on Android 7
+$ 1.6.0.8
+  % Version 1.6.0.8
+  _ 2016-06-06
+  # Enhance: Invoice performance
+$ 1.6.0.7
+  % Version 1.6.0.7
+  _ 2016-05-12
+  # Enhance: Invoice performance
+$ 1.6.0.6
+  % Version 1.6.0.6
+  _ 2015-07-29
+  # Fix: Logo bug
+$ 1.6.0.5
+  % Version 1.6.0.5
+  _ 2015-05-15
+  # Add: Hungary language
+  # Fix: Small bug
+$ 1.6.0.4
+  % Version 1.6.0.4
+  _ 2015-05-06
+  # Add: Swedish language
+  # Add: Improve in-app purchase
+$ 1.6.0.3
+  % Version 1.6.0.3
+  _ 2015-01-28
+  # Hotfix: Missing invoice on some devices
+$ 1.6.0
+  % Version 1.6.0
+  _ 2015-01-09
+  # Add: Russian language
+  # Add: Tax deduction
+  # Add: Start mile and end mile, option mile note
+  # Add: Calendar week
+  # Enhance: Allow invoice number INV15-0001, change invoice title
+  # Enhance: Pdf invoice 
+  # Enhance: Delete project
+  # Enhance: Layout
+$ 1.5.9
+  % Version 1.5.9
+  _ 2014-11-26
+  # Add: Allow dash in invoice number
+  # Add: Invoice logo 
+  # Add: Tax number
+  # Add: Preset invoice tax and note
+  # Add: Discount on invoice
+  # Add: Sorting time record and invoices
+  # Add: Overtime monthly, biweek, weekend
+  # Add: Customize invoice file name
+  # Add: Multiple select
+  # Enhance: Calendar
+  # Fix: Export report in csv
+$ 1.5.8
+  % Version 1.5.8
+  _ 2014-10-20
+  # Add: Spanish language
+  # Enhance: French language
+  # Fix: Invoice due negative problem
+  # Enhance: Spanish language
+$ 1.5.7
+  % Version 1.5.7
+  _ 2014-08-05
+  # Enhance: Switch to appcompat
+  # Enhance: German language
+$ 1.5.6
+  % Version 1.5.6
+  _ 2014-08-03
+  # Add: App widget
+  # Add: Bonus rate
+$ 1.5.5
+  % Version 1.5.5
+  _ 2014-07-08
+  # Add: Norwegian language
+  # Add: Preset expense amount
+  # Add: Over time summary
+  # Add: Round down to 30 mins
+  # Fix: Allow decimal point in overtime
+$ 1.5.4
+  % Version 1.5.4
+  _ 2014-06-26
+  # Fix: Export report error on some devices.
+  # Fix: Update expense error
+  # Add: Week number in week view
+$ 1.5.3
+  % Version 1.5.3
+  _ 2014-06-12
+  # Add: Nederlands, Bosanski
+  # Enhance: Allow user add new currency
+  # Fix: Semi month
+$ 1.5.2
+  % Version 1.5.2
+  _ 2014-05-27
+  # Add: Semi month
+  # Add: Total hour in invoice
+  # Add: Total amount in invoice list
+  # Enhance: Invoice number
+$ 1.5.1
+  % Version 1.5.1
+  _ 2014-05-19
+  # Add: Expense & mileage
+$ 1.5.0
+  % Version 1.5.0
+  _ 2014-05-09
+  # Enhance: Password
+  # Enhance: Restore database from Google Drive
+  # Add: French
+$ 1.4.9
+  % Version 1.4.9
+  _ 2014-04-27
+  # Add: Brazilian Portuguese
+  # Add: App rate dialog
+  # Fix: Small bugs
+$ 1.4.8
+  % Version 1.4.8
+  _ 2014-04-17
+  # Add: Flat rate for time record
+  # Add: Add note while punch in
+  # Enhance: UI
+  # Fix: Dropbox bug, and other small bug
+$ 1.4.7
+  % Version 1.4.7
+  _ 2014-04-13
+  # Enhance: In-app billing v3
+  # Enhance: Dropbox sdk 1.6.1
+  # Fix: Small bug
+  # Enhance: Italian, German translation 
+$ 1.4.6
+  % Version 1.4.6
+  _ 2014-03-28
+  # Add: Date format option
+  # Fix: Puch in error when use change time zone
+  # Enhance: Time picker according to 24hour or am/pm
+  # Enhance: Enlarge note, comment fields
+  # Enhance: Flexible invoice date, optional due date
+  # Enhance: UI 
+$ 1.4.5
+  % Version 1.4.5
+  _ 2014-03-20
+  # Add: Italian language
+  # Add: Reset app
+  # Add: Setup client from phone contact
+  # Add: Invoice payment
+  # Enhance: Invoice # by letters follow by numbers    
+  # Enhance: Change default email to profile email
+$ 1.4.4
+  % Version 1.4.4
+  _ 2014-03-11
+  # Fix: Start/end time error on project when using am/pm format
+  # Add: Danish language
+$ 1.4.3
+  % Version 1.4.3
+  _ 2014-03-07
+  #	Enhance: Export
+  # Enhance: Backup database
+  # Fix: Export period
+  # Add: German language
+  # Fix: Small bugs
+$ 1.4.2
+  % Version 1.4.2
+  _ 2014-02-09
+  # Fix: Special characters in project and client
+  # Fix: Biweek timesheet
+  # Fix: Saturday in calendar view
+  # Fix: Double break when pause
+  #	Enhance: Timesheet performance
+  # Add: Overlap biweek period
+$ 1.4.1
+  % Version 1.4.1
+  _ 2014-01-29
+  # HotFix: Setting error for non English/Chinese device
+  # HotFix: Change time when long click punch out
+$ 1.4.0
+  % Version 1.4.0
+  _ 2014-01-27
+  # Fix: first day of week in calendar
+  # Fix: multiple entries for daily overtime
+  # Add: hours line/bar chart
+  # Add: breaks, client in project
+  # Add: start date in biweek
+  # Add: pause function
+$ 1.3.9
+  % Version 1.3.9
+  _ 2013-12-25
+  # Fix: small bugs
+$ 1.3.8
+  % Version 1.3.8
+  _ 2013-12-16
+  # Hot fix last update bug
+$ 1.3.7
+  % Version 1.3.7
+  _ 2013-12-14
+  # Add: option fields for export and invoice
+  # Add: weekly over time
+  # Fix: small bugs
+$ 1.3.6
+  % Version 1.3.6
+  _ 2013-11-26
+  # Fix: small bug
+  # Add: calendar view
+$ 1.3.5
+  % Version 1.3.5
+  _ 2013-08-10
+  # Fix: update timesheet problem
+$ 1.3.4
+  % Version 1.3.4
+  _ 2013-07-30
+  # Fix: Blank invoice sometimes
+$ 1.3.3
+  % Version 1.3.3
+  _ 2013-07-05
+  # Enhance: Invoice 
+$ 1.3.2
+  % Version 1.3.2
+  _ 2013-06-20
+  # Fix: Punch in problem when disable default value 
+$ 1.3.1
+  % Version 1.3.1
+  _ 2013-05-06
+  # Fix: Special character for client name
+  # Fix: Invoice problem
+$ 1.3.0
+  % Version 1.3.0
+  _ 2013-03-26
+  # Add: Chinese invoice
+  # Add: Timesheet status: Open, Follow up, Invoiced, Paid
+  # Enhance: Invoice
+$ 1.2.9
+  % Version 1.2.9
+  _ 2013-03-23
+  # Fix: Bugs
+$ 1.2.8
+  % Version 1.2.8
+  _ 2013-03-18
+  # Invoice bug fix
+$ 1.2.6
+  % Version 1.2.6
+  _ 2013-03-18
+  # Auto backup database to Dropbox when exiting
+  # Add invoice function
+  # First day of month
+$ 1.2.5
+  % Version 1.2.5
+  _ 2013-01-27
+  # Hot Fix: working overtime
+$ 1.2.4
+  % Version 1.2.4
+  _ 2013-01-23
+  # Fix: biweek period
+$ 1.2.3
+  % Version 1.2.3
+  _ 2013-01-02
+  # Fix: time record not show in week, biweek
+  # Enhance: day, week, biweek and year button.
+$ 1.2.2
+  % Version 1.2.2
+  _ 2013-01-01
+  # Fix: crash when add new time record in some case.
+$ 1.2.1
+  % Version 1.2.1
+  _ 2012-12-26
+  # Fix: Start and End time error, Please update the start/end time record which displays "00:00"
+  # Add: auto overtime
+$ 1.2.0
+  % Version 1.2.0
+  _ 2012-12-22
+  # Add: preset Start and End time
+  # Add: negative hour rate
+$ 1.1.9
+  % Version 1.1.9
+  _ 2012-12-16
+  # Add am/pm time format
+  # Crossing out amounts paid
+  # Change the start time after the punch in is pressed
+  # Add new currencies: Dominican Peso, Colombian Peso
+$ 1.1.8
+  % Version 1.1.8
+  _ 2012-11-10
+  # Fix: calculating hours error
+$ 1.1.7
+  % Version 1.1.7
+  _ 2012-11-07
+  # Fix: modify project error
+$ 1.1.6
+  % Version 1.1.6
+  _ 2012-10-04
+  # Enhance UI
+$ 1.1.5
+  % Version 1.1.5
+  _ 2012-10-03
+  # Fix export/email bug
+$ 1.1.4
+  % Version 1.1.4
+  _ 2012-10-27
+  # Export/email report at specific date
+  # Add working hour round up/down
+$ 1.1.3
+  % Version 1.1.3
+  _ 2012-10-14
+  # Add: work for free, zero rate
+$ 1.1.2
+  % Version 1.1.2
+  _ 2012-10-03
+  # Enhance performance
+$ 1.1.1
+  % Version 1.1.1
+  _ 2012-09-02
+  # Fix: show time problem in biweek
+$ 1.1.0
+  % Version 1.1.0
+  _ 2012-08-19
+  #	Add: breaks
+  # Add: hour format
+  # Add: biweek  
+  # Fix：two hours heading in the exporting report 
+$ 1.0.9.1
+  % Version 1.0.9.1
+  _ 2012-08-08
+  # Bug fix：manual input date or time
+  # Bug fix: wrong time in chart
+$ 1.0.9
+  % Version 1.0.9
+  _ 2012-08-02
+  # Add：Chinese version
+  # Change: hour format
+$ 1.0.8
+  % Version 1.0.8
+  _ 2012-07-15
+  # Hot fix: export/email html, xml reports
+$ 1.0.6
+  % Version 1.0.6
+  _ 2012-06-13
+  # Add: excel xml report, html report
+$ 1.0.5
+  % Version 1.0.5
+  _ 2012-06-02
+  # DB backup and restore to Dropbox, Google Drive
+$ 1.0.3
+  % Version 1.0.3
+  _ 2012-05-30
+  # fix bug: update time record with new project
+  # support different date
+$ 1.0.2
+  % Version 1.0.2
+  _ 2012-05-17
+  # enhance UI: add time
+$ 1.0.1
+  % Version 1.0.1
+  _ 2012-05-17
+  # fix bug
+$ 1.0.0
+  % Version 1.0.0
+  _ 2012-05-13
+  # release
+$ END_OF_CHANGE_LOG

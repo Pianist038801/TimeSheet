@@ -1,4 +1,240 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
-    <Button android:id="@+id/myButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/hello" />
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/bgMain"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ScrollView
+        android:id="@id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:paddingTop="20.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8.0dip"
+            android:layout_marginRight="8.0dip">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false">
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:id="@id/btnSales"
+                    android:background="@drawable/menu_background"
+                    android:padding="5.0dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="90.0dip"
+                    android:layout_weight="1.0">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/menu_list" />
+                    <TextView
+                        android:textColor="@color/menuText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/menuTimesheet" />
+                </LinearLayout>
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:id="@id/btnCharts"
+                    android:background="@drawable/menu_background"
+                    android:layout_width="0.0dip"
+                    android:layout_height="90.0dip"
+                    android:layout_weight="1.0">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/menu_chart" />
+                    <TextView
+                        android:textColor="@color/menuText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/menuCharts" />
+                </LinearLayout>
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:id="@id/btnInvoice"
+                    android:background="@drawable/menu_background"
+                    android:padding="5.0dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="90.0dip"
+                    android:layout_weight="1.0">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/menu_invoice" />
+                    <TextView
+                        android:textColor="@color/menuText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/menuInvoice" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false">
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:id="@id/btnSetting"
+                    android:background="@drawable/menu_background"
+                    android:layout_width="0.0dip"
+                    android:layout_height="90.0dip"
+                    android:layout_weight="1.0">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/menu_setting" />
+                    <TextView
+                        android:textColor="@color/menuText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/menuSetting" />
+                </LinearLayout>
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:id="@id/btnData"
+                    android:background="@drawable/menu_background"
+                    android:padding="5.0dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="90.0dip"
+                    android:layout_weight="1.0">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/menu_data" />
+                    <TextView
+                        android:textColor="@color/menuText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/menuData" />
+                </LinearLayout>
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:id="@id/btnExit"
+                    android:background="@drawable/menu_background"
+                    android:layout_width="0.0dip"
+                    android:layout_height="90.0dip"
+                    android:layout_weight="1.0">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/menu_exit" />
+                    <TextView
+                        android:textColor="@color/menuText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/menuExit" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4.0dip">
+                <TextView
+                    android:textSize="35.0dip"
+                    android:textStyle="bold"
+                    android:textColor="@color/menuCount"
+                    android:gravity="center"
+                    android:id="@id/textDuration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="00:00:00" />
+                <TextView
+                    android:textSize="25.0dip"
+                    android:textStyle="bold"
+                    android:textColor="@color/menuCount"
+                    android:gravity="center"
+                    android:id="@id/textBreak"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="00:00:00" />
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:id="@id/btnPunchIn"
+                android:background="@drawable/menu_bg"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4.0dip"
+                android:layout_marginBottom="4.0dip">
+                <TextView
+                    android:textSize="24.0dip"
+                    android:textColor="@color/menuCount"
+                    android:gravity="center"
+                    android:id="@id/punchIn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/punchIn" />
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:id="@id/btnPunchOut"
+                android:background="@drawable/menu_bg"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4.0dip"
+                android:layout_marginBottom="4.0dip">
+                <TextView
+                    android:textSize="24.0dip"
+                    android:textColor="@color/menuCount"
+                    android:gravity="center"
+                    android:id="@id/punchPause"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:text="@string/punchPause"
+                    android:layout_weight="1.0" />
+                <View
+                    android:background="@android:color/darker_gray"
+                    android:layout_width="1.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="10.0dip"
+                    android:layout_marginBottom="10.0dip" />
+                <TextView
+                    android:textSize="24.0dip"
+                    android:textColor="@color/green"
+                    android:gravity="center"
+                    android:id="@id/punchOut"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:text="@string/punchOut"
+                    android:layout_weight="2.0" />
+                <Button
+                    android:id="@id/popupMenu"
+                    android:background="@drawable/more"
+                    android:visibility="gone"
+                    android:layout_width="48.0sp"
+                    android:layout_height="48.0sp"
+                    android:onClick="showPopup" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/startTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip">
+                <TextView
+                    android:textSize="16.0dip"
+                    android:textColor="@color/menuCount"
+                    android:id="@id/tvStartTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>
