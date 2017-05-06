@@ -221,16 +221,10 @@
     <AndroidResource Include="Resources\drawable\menu_background.xml" />
     <AndroidResource Include="Resources\mipmap-hdpi\icon.png" />
     <AndroidResource Include="Resources\menu\main.xml" />
-    <AndroidResource Include="Resources\raw\about.html" />
-    <AndroidResource Include="Resources\raw\changelog.txt" />
-    <AndroidResource Include="Resources\raw\changelogtemplate.txt" />
-    <AndroidResource Include="Resources\raw\excel_xml_report.txt" />
-    <AndroidResource Include="Resources\raw\help.html" />
-    <AndroidResource Include="Resources\raw\help_chart.html" />
-    <AndroidResource Include="Resources\raw\help_invoice.html" />
-    <AndroidResource Include="Resources\raw\help_timesheet.html" />
-    <AndroidResource Include="Resources\raw\html_report.txt" />
-    <AndroidResource Include="Resources\raw\introduct.txt" />
+    <AndroidResource Include="Resources\layout\Help.xml" />
+    <AndroidResource Include="Resources\menu\popup_punch.xml" />
+    <AndroidResource Include="Resources\drawable\bg_title.xml" />
+    <AndroidResource Include="Resources\drawable\button.xml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
@@ -238,6 +232,18 @@
     <Folder Include="Resources\mipmap-mdpi\" />
     <Folder Include="Resources\mipmap-xhdpi\" />
     <Folder Include="Resources\menu\" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\about.html" />
+    <AndroidAsset Include="Assets\changelog.txt" />
+    <AndroidAsset Include="Assets\changelogtemplate.txt" />
+    <AndroidAsset Include="Assets\excel_xml_report.txt" />
+    <AndroidAsset Include="Assets\help.html" />
+    <AndroidAsset Include="Assets\help_chart.html" />
+    <AndroidAsset Include="Assets\help_invoice.html" />
+    <AndroidAsset Include="Assets\help_timesheet.html" />
+    <AndroidAsset Include="Assets\html_report.txt" />
+    <AndroidAsset Include="Assets\introduct.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

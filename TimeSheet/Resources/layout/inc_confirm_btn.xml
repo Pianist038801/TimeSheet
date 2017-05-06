@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textColor="@color/btn_text" android:id="@id/btnConfirm" android:background="@drawable/button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/btnConfirm" android:layout_weight="1.0" />
+    <View android:background="@android:color/darker_gray" android:layout_width="0.100000024dip" android:layout_height="20.0dip" />
+    <Button android:textColor="@color/btn_text" android:id="@id/btnCancel" android:background="@drawable/button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/btnCancel" android:layout_weight="1.0" />
+</merge>
