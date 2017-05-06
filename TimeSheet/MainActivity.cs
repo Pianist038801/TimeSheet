@@ -7,12 +7,6 @@ using Android.Views;
 using Android.Content;
 using Java.Util;
 
-class TimerExampleState
-{
-	public int counter = 0;
-	public System.Threading.Timer tmr;
-}
-
 namespace TimeSheet
 {
     
